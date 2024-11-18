@@ -1,0 +1,37 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignore virtual environment
+myenv/
+
+# Ignore Django migrations
+portfolio/migrations/
+
+# Ignore database files (SQLite by default)
+*.sqlite3
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore environment variables file
+.env
+
+# Ignore static files if collected
+/static/
+
+# Ignore log files
+*.log
+
+# Ignore coverage reports (if using a testing tool like pytest)
+.coverage
+*.cover
+
+# Ignore DS_Store (MacOS specific)
+.DS_Store
+
+# Ignore venv/ or other virtual environment folder names
+venv/
