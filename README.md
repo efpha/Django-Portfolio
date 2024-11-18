@@ -1,13 +1,9 @@
-
 # **Portfolio Website**
-
-A Django-based portfolio website to showcase your skills, projects, and professional background. The site includes a contact form that allows visitors to leave messages, which are stored in a database for easy access.
-
+A Django-based portfolio website. The site includes a contact form that allows visitors to leave messages, which are stored in a database for easy access.
 ---
 
 ## **Features**
 - Fully responsive design using **Bootstrap 5**.
-- Professional and clean layout with navigation and footer.
 - Separate pages for:
   - Home
   - About
@@ -43,7 +39,7 @@ pip install django
 - `sqlite3`: The default database used by Django for development.
 
 ### **3. Configure the Database**
-The project uses SQLite by default. If you wish to use a different database, update the `DATABASES` setting in `portfolio_project/settings.py`.
+The project uses SQLite by default.
 
 Run the migrations to set up the database:
 ```bash
@@ -64,8 +60,8 @@ Access the website at `http://127.0.0.1:8000/`.
 ## **Additional Notes**
 
 - **Bootstrap**: The project uses **Bootstrap 5** for responsive design and layout. It’s linked via a CDN in the `base.html` template.
-- **Static Files**: Ensure that the static files (e.g., CSS, images) are correctly set up in `settings.py`. Use `python manage.py collectstatic` in production.
-- **Admin Panel**: You can manage contact form submissions and other admin tasks by creating a superuser:
+- **Static Files**: To ensure that the static files are correctly set up in `settings.py`.
+- **Admin Panel**: Manage contact form submissions and other admin tasks by creating a superuser:
   ```bash
   python manage.py createsuperuser
   ```
